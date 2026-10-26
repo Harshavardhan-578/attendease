@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Black C arc (open circle, gap at top-right ~35deg) -->
+  <path
+    d="M 85,22 A 42,42 0 1,0 85,78"
+    stroke="#111111"
+    stroke-width="13"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <!-- Orange checkmark -->
+  <polyline
+    points="28,52 44,68 78,28"
+    stroke="#EA580C"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>
