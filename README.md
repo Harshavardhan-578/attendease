@@ -23,7 +23,7 @@
 - **Mobile-First & PWA-Ready**:
   - Optimized for mobile and desktop screens.
   - Safe-area inset support for modern smartphones (notch/home indicator).
-  - Clean bottom navigation bar (Home, Notifications, History, Profile).
+  - Clean bottom navigation bar (Home, Permissions, Notifications, History, Profile).
 
 ---
 

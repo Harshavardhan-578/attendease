@@ -520,29 +520,35 @@
 
   <!-- BOTTOM NAV -->
   <nav class="fixed bottom-0 inset-x-0 z-50 bg-white/90 backdrop-blur-xl border-t border-border-subtle/60 pb-safe">
-    <div class="flex justify-around items-center h-16 px-2 max-w-md mx-auto">
+    <div class="flex justify-around items-center h-16 px-1 max-w-md mx-auto">
       <a href="#"
-        class="nav-link active flex-1 flex flex-col items-center justify-center h-full min-w-[60px] min-h-[44px] gap-0.5"
+        class="nav-link active flex-1 flex flex-col items-center justify-center h-full min-w-[48px] min-h-[44px] gap-0.5"
         data-page="home" aria-label="Home">
-        <span class="material-symbols-outlined nav-icon text-[24px] mb-0.5">home</span>
+        <span class="material-symbols-outlined nav-icon text-[23px] mb-0.5">home</span>
         <span class="text-[10px] font-semibold leading-tight">Home</span>
       </a>
       <a href="#"
-        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[60px] min-h-[44px] gap-0.5 text-secondary"
+        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[48px] min-h-[44px] gap-0.5 text-secondary"
+        data-page="permissions" aria-label="Permissions" onclick="openModal('modal-new-request')">
+        <span class="material-symbols-outlined nav-icon text-[23px] mb-0.5">shield</span>
+        <span class="text-[10px] font-medium leading-tight">Permissions</span>
+      </a>
+      <a href="#"
+        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[48px] min-h-[44px] gap-0.5 text-secondary"
         data-page="notifications" aria-label="Notifications">
-        <span class="material-symbols-outlined nav-icon text-[24px] mb-0.5">notifications</span>
+        <span class="material-symbols-outlined nav-icon text-[23px] mb-0.5">notifications</span>
         <span class="text-[10px] font-medium leading-tight">Notifications</span>
       </a>
       <a href="#"
-        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[60px] min-h-[44px] gap-0.5 text-secondary"
+        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[48px] min-h-[44px] gap-0.5 text-secondary"
         data-page="history" aria-label="History">
-        <span class="material-symbols-outlined nav-icon text-[24px] mb-0.5">history</span>
+        <span class="material-symbols-outlined nav-icon text-[23px] mb-0.5">history</span>
         <span class="text-[10px] font-medium leading-tight">History</span>
       </a>
       <a href="#"
-        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[60px] min-h-[44px] gap-0.5 text-secondary"
+        class="nav-link flex-1 flex flex-col items-center justify-center h-full min-w-[48px] min-h-[44px] gap-0.5 text-secondary"
         data-page="profile" aria-label="Profile">
-        <span class="material-symbols-outlined nav-icon text-[24px] mb-0.5">person</span>
+        <span class="material-symbols-outlined nav-icon text-[23px] mb-0.5">person</span>
         <span class="text-[10px] font-medium leading-tight">Profile</span>
       </a>
     </div>
